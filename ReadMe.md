@@ -1,0 +1,3 @@
+- Most of the code is modified from : [NeuralHawkes](https://github.com/Hongrui24/NeuralHawkesPytorch).
+- For the dataset of stock preprocessed to 1sec levels please refer to: https://www.kaggle.com/datasets/aravindproml/lob-1sec-dataset which contains year long data for PZU stock.
+- GPU not required and didnt give too high of a performance boost. Expected running time: 5hrs for 60 days for 0.05% jump for 100 epochs for a single model, more that 12 hrs for the same for 0.01% jump.
